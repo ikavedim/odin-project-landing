@@ -3,32 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>My Landing Page</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header class="header">
-        <div>
+    <div class="header">
+        <div class="logo">
             <p>Header Logo</p>
         </div>
         <div>
             <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
+                <li><a href="">header link one</a></li>
+                <li><a href="">header link two</a></li>
+                <li><a href="">header link three</a></li>
             </ul>
         </div>
-    </header>
+    </div>
 
     <div class="hero">
         <div class="left">
-            <div id="title">
+            <div class="title">
                 This website is awesome
             </div>
             <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
             <button>Sign up</button>
         </div>
         <div class="right">
-            <img>this is a placeholder for an image
+            <p>this is a placeholder for an image</p>
         </div>
     </div>
 
@@ -36,41 +40,43 @@
         <div class="title">
             Some random information.
         </div>
-        <div class="card">
-            <img>
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="card">
-            <img>
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="card">
-            <img>
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="card">
-            <img>
-            <p>this is some subtext under an illustration or image</p>
-        </div>
+        <ul>
+            <li class="card">
+                <div class="blue-square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </li>
+            <li class="card">
+                <div class="blue-square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </li>
+            <li class="card">
+                <div class="blue-square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </li>
+            <li class="card">
+                <div class="blue-square"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </li>
+        </ul>
     </div>
 
-    <div class="quote">
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <p>-Thor, God of Thunder</p>
+    <div class="quote-container">
+        <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+        <p class="quoted">-Thor, God of Thunder</p>
     </div>
 
-    <div class="CTA">
+    <div class="cta">
         <div class="left">
-            <p>Call to action! It's time!</p>
-            <p>Sign up for our product by clicking that button right over there!</p>
+            <p class="title">Call to action! It's time!</p>
+            <p class="subtext">Sign up for our product by clicking that button right over there!</p>
         </div>
         <div class="right">
             <button>Sign up</button>
         </div>
     </div>
 
-    <footer>
+    <div class="footer">
         <p>Copyright © The Odin Project 2021</p>
-    </footer>
+    </div>
 </body>
 </html>
